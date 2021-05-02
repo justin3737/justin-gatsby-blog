@@ -18,13 +18,7 @@ class BlogPostTemplate extends React.Component {
         />
         <Article>
         <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            display: `block`,
-            marginBottom: `40px`,
-            marginTop: `40px`,
-          }}
-        >
+        <p class="post-content-date">
           {post.frontmatter.date}
         </p>
         <MDXRenderer>{post.body}</MDXRenderer>
