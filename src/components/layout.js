@@ -4,13 +4,13 @@ import { GlobalStyle, Wrapper, Footer } from "./layout-comp"
 
 class Layout extends React.Component {
   render() {
-    const { title, children } = this.props
+    const { location, title, children } = this.props
 
     return (
       <>
         <GlobalStyle />
         <Wrapper>
-          <Header title={title} />
+          <Header title={title} location={location}/>
           <main>{children}</main>
           <Footer>
             © Justin {new Date().getFullYear()}, Built with

@@ -138,6 +138,7 @@ export const Article = styled.div`
 
     h5 {
       font-size: 14px;
+      margin-top: -18px;
     }
   }
 `

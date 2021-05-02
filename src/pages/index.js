@@ -13,7 +13,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[`mountain`, `life`, `photography`, `blog`, `gatsby`, `javascript`, `react`]}
         />
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
