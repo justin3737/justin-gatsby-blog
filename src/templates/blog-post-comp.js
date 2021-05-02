@@ -47,7 +47,7 @@ export const Article = styled.div`
 
   hr {
     position: relative;
-    margin: 25px 0;
+    margin: 30px 0;
     border-color: transparent;
     display: block;
     width: 100%;
@@ -60,7 +60,7 @@ export const Article = styled.div`
 
   hr:after {
     display: block;
-    font-size: 20px;
+    font-size: 24px;
     content: ". . .";
     margin: 0 auto;
     position: absolute;
@@ -79,10 +79,10 @@ export const Article = styled.div`
   }
 
   blockquote::before, blockquote::after {
-      top: -5px;
+      top: -6px;
       left: 50%;
       width: 94%;
-      height: 5px;
+      height: 8px;
       content: "";
       position: absolute;
       background: #ffffff;
@@ -91,7 +91,7 @@ export const Article = styled.div`
 
   blockquote::after {
     top: auto;
-    bottom: -5px;
+    bottom: -6px;
   }
 
   blockquote p {
@@ -99,7 +99,7 @@ export const Article = styled.div`
   }
 
   @media (max-width: 600px) {
-    padding: calc(2.5rem + 60px) 3.5rem 2.5rem;
+    padding: calc(2.5rem + 60px) 2.5rem 2.5rem;
 
     h1 {
       font-size: 2em;
@@ -108,5 +108,9 @@ export const Article = styled.div`
     h2 {
       font-size: 1.6em;
     }
+  }
+
+  @media (max-width: 375px) {
+    padding: calc(2.5rem + 60px) 2rem 2.5rem;
   }
 `
