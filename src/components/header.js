@@ -10,10 +10,22 @@ import {
 } from "./header-comp"
 
 class Header extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      isOpen: false
+    }
+  }
+  _onclick = () => {
+    const { isOpen } = this.state
+    this.setState({
+      isOpen: !isOpen
+    })
+  }
   render() {
     const { title } = this.props
     return (
-      <Head className="header-container">
+      <Head className={this.state.isOpen? "is-open":""}>
         <Logo>
           <Link href="/">{title}</Link>
         </Logo>
@@ -44,7 +56,7 @@ class Header extends React.Component {
             </a>
           </ListItem>
         </ListMenu>
-        <HamburgerWrap id="menu">
+        <HamburgerWrap id="menu" onClick={this._onclick}>
           <HamburgerItem></HamburgerItem>
         </HamburgerWrap>
       </Head>
