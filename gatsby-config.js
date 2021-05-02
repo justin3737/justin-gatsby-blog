@@ -1,12 +1,14 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Gatsby`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Chasing lights and shadows | Justin`,
+    author: `Justin Wu`,
+    description: `Justin's personal blog.`,
+    siteUrl: `https://justin.com`,
     social: {
-      twitter: `gatsbyjs`,
+      facebook: ``,
+      instagram: ``,
+      github: ``,
     },
   },
   plugins: [
@@ -123,12 +125,6 @@ module.exports = {
         // edit below
         icon: `content/assets/gatsby-icon.png`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    }
   ],
 }
