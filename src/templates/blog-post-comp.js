@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Article = styled.div`
-  max-width: 720px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 12vw 2.5rem 2.5rem;
   font-size: 16px;
@@ -92,7 +92,7 @@ export const Article = styled.div`
   }
 
   blockquote {
-    border: 5px solid #bbbbbb;
+    border: 4px solid #bbbbbb;
     margin: 2.5em 0;
     padding: 1em 1.1em 1em 1.3em;
     position: relative;
@@ -119,7 +119,7 @@ export const Article = styled.div`
     margin: 0;
   }
 
-  @media (min-width: 720px) {
+  @media (min-width: 920px) {
     h5 {
       text-align: left;
     }
