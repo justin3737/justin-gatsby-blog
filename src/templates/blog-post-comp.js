@@ -102,12 +102,12 @@ export const Article = styled.div`
   blockquote::before, blockquote::after {
     top: -6px;
     left: 50%;
-    width: 94%;
+    width: 96%;
     height: 8px;
     content: "";
     position: absolute;
     background: #ffffff;
-    margin-left: -47%;
+    margin-left: -48%;
   }
 
   blockquote::after {

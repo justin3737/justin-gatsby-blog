@@ -27,7 +27,7 @@ class Header extends React.Component {
     return (
       <Head className={this.state.isOpen? "is-open":""}>
         <Logo>
-          <Link href="/">{title}</Link>
+          <Link to="/">{title}</Link>
         </Logo>
         <ListMenu>
           <ListItem>
