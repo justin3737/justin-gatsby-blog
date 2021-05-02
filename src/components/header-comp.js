@@ -86,6 +86,10 @@ export const Logo = styled.div`
   font-size: 18px;
   line-height: 36px;
 
+	a {
+		text-transform: uppercase;
+	}
+
 	@media screen and (max-width: 820px) {
 		padding: 0;
     width: 100%;

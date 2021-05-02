@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Chasing lights and shadows | Justin`,
+    title: `Chasing lights and shadows`,
     author: `Justin Wu`,
     description: `Justin's personal blog.`,
     siteUrl: `https://justin.com`,
