@@ -5,7 +5,7 @@ export const Head = styled.header`
 	position: fixed;
 	top: 0;
 	z-index: 100;
-	padding: 24px;
+	padding: 24px 2rem;
 	width: calc(100% - 40px);
 	display: flex;
 	-webkit-box-pack: justify;
@@ -48,7 +48,7 @@ export const HamburgerWrap = styled.div`
     flex-shrink: 0;
     position: absolute;
     top: 32px;
-    right: 24px;
+    right: 2rem;
 	}
 `
 
