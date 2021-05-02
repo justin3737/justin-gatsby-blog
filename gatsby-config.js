@@ -6,9 +6,10 @@ module.exports = {
     description: `Justin's personal blog.`,
     siteUrl: `https://justin.com`,
     social: {
-      facebook: ``,
-      instagram: ``,
-      github: ``,
+      facebook: `justin3737`,
+      instagram: `justin3737`,
+      github: `justin3737`,
+      line: `justin3737`,
     },
   },
   plugins: [
