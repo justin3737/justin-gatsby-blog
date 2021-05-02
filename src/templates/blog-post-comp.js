@@ -135,5 +135,9 @@ export const Article = styled.div`
 
   @media (max-width: 414px) {
     padding: calc(2.5rem + 60px) 2rem 2.5rem;
+
+    h5 {
+      font-size: 14px;
+    }
   }
 `
