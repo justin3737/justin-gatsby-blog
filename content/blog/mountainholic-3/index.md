@@ -1,7 +1,7 @@
 ---
-title: Mountainholic Part I - 登山初心
+title: Mountainholic Part III - 在山上游牧
 cover: 0_FA343IMn6KNTm-d7.jpeg
-date: "2021-03-10"
+date: "2021-03-12"
 description: "都怪那一年同學揪我上雪山跨年，走著走著就下起雪來，一步一步踩在雪地上，呼吸著寒冷的空氣，這世界彷彿靜止了…"
 tags: "mountain"
 ---
