@@ -55,17 +55,6 @@ export const Article = styled.div`
     color: #454545;
   }
 
-  img {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    vertical-align: middle;
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-shadow: inset 0px 0px 0px 400px transparent;
-  }
-
   hr {
     position: relative;
     margin: 30px 0;
@@ -117,6 +106,10 @@ export const Article = styled.div`
 
   blockquote p {
     margin: 0;
+  }
+
+  .gatsby-resp-image-wrapper {
+    margin: 0 -2rem;
   }
 
   @media (min-width: 920px) {

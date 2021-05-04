@@ -1,5 +1,3 @@
-const { lazy } = require("react");
-
 module.exports = {
   siteMetadata: {
     // edit below
@@ -88,7 +86,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 920,
-              loading: lazy,
+              loading: "lazy",
             },
           },
           {
@@ -107,7 +105,7 @@ module.exports = {
             resolve: `gatsby-remark-smartypants`,
           },
         ],
-        plugins: [`gatsby-remark-images`],
+        //plugins: [`gatsby-remark-images`],
       },
     },
     {
