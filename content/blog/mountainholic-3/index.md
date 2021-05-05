@@ -8,95 +8,122 @@ tags: "mountain"
 
 ![在桃山上跳耀](./0_FA343IMn6KNTm-d7.jpeg)
 ##### 在桃山上跳耀
-<br/>
-
-> 都怪那一年同學揪我上雪山跨年<br/>
-走著走著就下起雪來，一步一步踩在雪地上，
-呼吸著寒冷的空氣，這世界彷彿靜止了…<br/>
-
-其實我也不是都整天爬山的人<br/>
-大部分還是在宅在家Coding學習或是去運動。
-也沒有所謂的 — 『不在山上 就是在前往山的路上』<br/>
-
-沒這回事<br/>
-所以當看到朋友發登山照片的時候，就開始懷念山上的美好
-<strong>我想我得到了想上山的病。</strong><br/>
-
----
 
 
-![https://www.youtube.com/watch?v=cGFPvzMrR34](./1_fNOp_X_gxIrwN8LH-MsJ_A.jpeg)
-##### 點這裡看 https://www.youtube.com/watch?v=cGFPvzMrR34
-<br/>
+# 在山裡遊牧
 
-### 再開始說我的故事以前
-
-我希望用這個預告當作開頭<br/>
-公視 2/25 每週四晚上9:00 首播 - 不去會死的他們。
-四個登山家的冒險故事，公視網站有4K 重播只要註冊就可以看<br/><br/>
-導演程紀皓說：「生活在一座70％是高山的島嶼，照理說應該10個人有7個人對山林有所了解，
-我想用影像讓大家看到這樣的台灣！這是一部以電影感操作的紀錄片節目，又有點像齣實境秀！」<br/>
-
----
+![](https://miro.medium.com/max/30/1*aP7Wgxn-Icwks3yPxKoWQA.jpeg?q=20)
 
 
-![我想像中雪山登頂很帥的照片（網路抓圖）](./1_a6uZ-aBifYEO3LOFRlBrtQ.jpeg)
-##### 我想像中雪山登頂很帥的照片（網路抓圖）
-<br/>
-
-### 有聽過2012世界末日嗎？
-
-瑪雅預言地球將在2012年迎來世界末日。<br/>
-電影2012：全球發生大地震大海嘯淹沒喜馬拉雅的壯闊場面(2009年上映的電影)。
-2011年底的時候，大學同學找我一起去報名雪山跨年商業團。
-我覺得世界末日前有一些人生的Todo List要完成，也要去台灣很美的地方看看，所以就一起報名了。<br/>
+![](https://miro.medium.com/max/2400/1*aP7Wgxn-Icwks3yPxKoWQA.jpeg)
 
 
-![369山莊(3100mm) 上下床鋪很簡陋 卻是冬季上山很舒適的選項了(現在已翻新)](./1_GkKy1mD9x2Q0gE0wTdpiow.png)
-##### 369山莊(3100mm) 上下床鋪很簡陋 卻是冬季上山很舒適的選項了(現在已翻新)
-<br/>
-
-### 第一次的雪地經驗 與369山莊
-實際上我時候穿得很腫很醜，當時也沒錢治裝<br/>
-從圈谷往雪山主峰的雪真的積得很深，雪的深度踩下去大概到我的膝蓋，每一步都很艱辛。<br/>
+##### 台版的天空之鏡 不用遠到南美洲 就可以感覺到離天空更近的地方
 
 
-![我就是天生浪漫愛雪愛星星](./1_FOlKmxMVT0BvO3cQkS112Q.jpeg)
-##### 我就是天生浪漫愛雪愛星星
-<br/>
+五天四夜 每天都是過著起床收帳拆帳的日子，然後移動到下一個地方
+
+因為連假很多人走，大家不能出國都爬山，都要搶湖邊的營地 （湖景第一排） 所以都要摸早黑。
+
+能高安東軍這一段有無數個高山湖泊
+
+我們在湖邊糜爛煮食看日落
+![](https://miro.medium.com/max/30/1*wSvt-mk0_hf-0Ek_R9j0LA.jpeg?q=20)
+
+![](https://miro.medium.com/max/4896/1*wSvt-mk0_hf-0Ek_R9j0LA.jpeg)![](https://miro.medium.com/max/30/1*pvB2TFyVIUBJ-RhFXe2F9w.jpeg?q=20)
+
+![](https://miro.medium.com/max/4896/1*pvB2TFyVIUBJ-RhFXe2F9w.jpeg)
+
+天使的眼淚-嘉明湖去個三天兩夜也才一個湖
+我們五天超過五個湖看到飽都超美的
+![](https://miro.medium.com/max/30/1*WTEr_ot9E0slTMv3Dyaskg.jpeg?q=20)
+
+![](https://miro.medium.com/max/4032/1*WTEr_ot9E0slTMv3Dyaskg.jpeg)
+
+##### 湖邊取水起霧了，多麽美，多麽浪滿
+
+![](https://miro.medium.com/max/30/1*3yFP_Vlx5PmfYcYnbZkcow.png?q=20)
+
+![](https://miro.medium.com/max/2876/1*3yFP_Vlx5PmfYcYnbZkcow.png)
+##### 銀河與小鹿 photo by 蘇蘇
+
+![](https://miro.medium.com/max/30/1*1RERGodFcEKF7HjfAbPBBg.jpeg?q=20)
+
+![](https://miro.medium.com/max/1080/1*1RERGodFcEKF7HjfAbPBBg.jpeg)
 
 
-2016 年雪山跨年，星空下真的很浪漫<br/>
-登頂完我們回到369山莊，大家都累癱<br/>
-只有我不畏疲勞還跑來拍照<br/>
-在我拍這張照片的時候<br/>
-山上很冷，按快門的時候手在抖<br/>
-在這麼寒冷且浪漫的時刻，我身後有一對男女在嬉鬧<br/>
-後來下山就看到我們的一對隊友手牽手了<br/>
-恩，原來那晚是你們在我後面打鬧呀<br/>
+## 牠們也沒有這麼可愛…
+
+睡夢半睡半醒
+
+發現帳篷外有點動靜 有腳步聲原來是水鹿大軍⋯
+
+來到他們家撒野沒被叼回去已經是萬幸
+
+第一次被水鹿們盯著上廁所好害羞
+
+約莫40–50隻以上都不怕人
+
+牠們需要攝取鹽分，會來舔人的尿
+![](https://miro.medium.com/max/30/1*IfoIfVKHvVInDzNXzA9JHg.jpeg?q=20)
+
+![](https://miro.medium.com/max/2048/1*IfoIfVKHvVInDzNXzA9JHg.jpeg)
 
 
-> 一直想找個地方可以獨享整個星空<br/>
-百岳沒有光害 沒有干擾 一整個星空銀河<br/>
-都是你的 以天為棉被 以大地為床<br/>
+## 早安 山裡的一天開始了
 
-![石門山星軌](./1_Fzc1WdhAJWYD7iRMhbtZoQ.jpeg)
-##### 石門山星軌
-<br/>
+準備出發 是最開心的時刻
+看到日出大景更是興奮
+
+說也奇怪，我在都市的生活都是睡到七晚八晚
+但上山的日子，總讓我很有毅力起床 迎接日出
+其實在山上睡覺很痛苦，很多時候是被冷醒的
+
+最期待的是晴朗的好天氣，不然濕冷天氣爬山很厭世
+這次能安也是前兩天看到天氣突然轉好
+才決定出發的
+
+![](https://miro.medium.com/max/23/1*Fy_wZV9gB2QZdf6MsTD1eQ.jpeg?q=20)
+
+![](https://miro.medium.com/max/1536/1*Fy_wZV9gB2QZdf6MsTD1eQ.jpeg)
 
 
-因為希望把山上美好的事物給記錄下來<br/>
-所以背著相機上山<br/>
-攝影也是我登山的初心<br/>
+![](https://miro.medium.com/max/30/1*pvz3akG-mCl7TC83fi_ydg.jpeg?q=20)
+
+![](https://miro.medium.com/max/2048/1*pvz3akG-mCl7TC83fi_ydg.jpeg)
+
+跟夥伴再一起的玉山聖誕趴
+我們也不是每次上山都很虐的
+也有很多很多糜爛的行程
+有空再聊
+![](https://miro.medium.com/max/30/1*eYUoFUyqTj1vGtS8ss4ZzA.jpeg?q=20)
+
+![](https://miro.medium.com/max/2048/1*eYUoFUyqTj1vGtS8ss4ZzA.jpeg)
 
 
-![百岳開車也可以到，合歡山松雪樓旁邊走進去 看奇萊主北的日出](./1_AppZbiOQ_rEOrmND9dqGzA.jpeg)
-##### 百岳開車也可以到，合歡山松雪樓旁邊走進去 看奇萊主北的日出
-<br/>
+
+## 沒有上山的時候就鍛鍊吧
+
+為了維持一定的體能
+沒有上山的時候 我們會一起鍛鍊
+今年一月的時候報了龍虎鳳越野跑
+
+這是完賽時發的文
+因為我們都走在一起
+比賽是沒有追求成績
+
+> 只想感受在山林裡漫步的美好
+> 但更愛的是
+> 因為路上有你們同行
+>
+> 感謝
+>
+> 那個一起努力 一起練習
+> 永不放棄直到終點的我們
+
+![](https://miro.medium.com/max/30/1*hSMZsiBW33uhR5tSI930Nw.jpeg?q=20)
+
+![](https://miro.medium.com/max/2048/1*hSMZsiBW33uhR5tSI930Nw.jpeg)
 
 
----
-
-在爬山以前 我非常的愛拍照…嘗試了很多題材。
-風景、人像、影像創作、婚禮紀錄…都有嘗試過
-喜歡上山，也喜歡幫朋友拍照。<br/>
+最後：來去山上住一晚吧 露營也可以
