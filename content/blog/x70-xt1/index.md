@@ -1,7 +1,12 @@
+---
+title: X70 與 XT1 - 初見面 南方澳漁港日出不專業測試
+cover: ./1_WbgrwDfKGlPvvoQZVDBUkQ.jpeg
+date: "2016-08-06"
+description: "『男人的防潮箱永遠都少一顆鏡頭 』除了鏡頭… 還少了隨身機 ^.<"
+tags: "photography"
+---
 
-# X70 與 XT1 - 初見面 南方澳漁港日出不專業測試
-
-前言
+### 前言
 > 『男人的防潮箱永遠都少一顆鏡頭 』
 除了鏡頭… 還少了隨身機 ^.<
 
@@ -10,19 +15,22 @@
 剛好看到FB 富士社團大仁哥正好要出脫黑色x70, 我想這一定是緣分（無誤
 
 先說說我本來的雞絲：XT1 , XF10–24mm XF 35mm, XF18–135mm 這兩年三次的日本之旅, 包含近期的蘭嶼 整組背起來 含腳架 保溫壺 隨身物品…等, 隨著年過30 已經漸漸讓我覺得吃不消, 特別是在旅行的尾聲的時候, 尤其這次夏天到了蘭嶼, 天空跟海水好藍, 銀河好美 但在行程中我已滿身是汗, 多希望可以更輕便一點多好。
+
 > 『最好的相機就是你手上的那一台』
 
 但很剛好在最想拍照的時候, 手上都是iphone , 但它的畫質對我來說只能說勉強而已, 在光源不足的時候 細節塗抹的更多。
 
 於是… 我入手了x70。
 
-![X70 v.s XT1 + 35mm](https://cdn-images-1.medium.com/max/3200/1*0P3mazASDxhRrJOlETHZMQ.jpeg)*X70 v.s XT1 + 35mm*
+![X70 v.s XT1 + 35mm](./1_0P3mazASDxhRrJOlETHZMQ.jpeg)
+##### X70 v.s XT1 + 35mm
 
 很驚人的體積差別吧, 前面廢話太多了… 趕緊進入正題測試的部分
 因為有點失算 WCL-X70 黑色廣角鏡已售完！太搶手了吧…
 來不及在這個篇章測試等校21mm
 
-## 外澳小白宮試拍
+### 外澳小白宮試拍
+
 > 這次測試存粹是假設XT1 及鏡頭們都沒有出動的狀態下（或是出光光的狀態？） , 我想知道等效21mm 是否能夠滿足我的需求與期待
 
 加上熬夜讓我腦袋不太清楚… 只測了 X70 的 廣角端與 10–24 的14mm端
@@ -30,14 +38,15 @@
 
 上:XT1 +10–24mm 下:X70
 
-![XT1 + 10–24mm @14mm [https://flic.kr/p/JWodR1](https://flic.kr/p/JWodR1)](https://cdn-images-1.medium.com/max/9792/1*qXINK1zZZzPyrvhhg-0RDg.jpeg)*XT1 + 10–24mm @14mm [https://flic.kr/p/JWodR1](https://flic.kr/p/JWodR1)*
+![XT1 + 10–24mm @14mm [https://flic.kr/p/JWodR1](https://flic.kr/p/JWodR1)](./1_qXINK1zZZzPyrvhhg-0RDg.jpeg)
+##### XT1 + 10–24mm @14mm [https://flic.kr/p/JWodR1](https://flic.kr/p/JWodR1)
 
 ![X70 @18.5mm [https://flic.kr/p/KrPHyd](https://flic.kr/p/KrPHyd)](https://cdn-images-1.medium.com/max/9792/1*Es61yCO49jvCieQSANWjeQ.jpeg)*X70 @18.5mm [https://flic.kr/p/KrPHyd](https://flic.kr/p/KrPHyd)*
 
 這次一個人前往外澳小白宮在沙灘上拍攝, 沒想到雲太厚銀河完全被蓋><
 且適逢農曆七…一個人在海水邊… 加上好像有點漲潮… 背後海浪聲越來越大…怪可怕.. 反正 WCL-X70 還沒入手,下次再來補考一次!
 
-## 南方澳漁港日出試拍
+### 南方澳漁港日出試拍
 
 離開外澳以後前往下個景點-南方澳漁港拍日出, 好在一雨大大推薦了漁港旁馬祖廟旁有烤鴨, 鹽酥雞, 碳烤… 配個啤酒剛好撫慰我受驚的心靈。
 
@@ -67,11 +76,13 @@
 
 1. x70 就是小！ 小到一手掌握！放外套口袋就好了…旅行無負擔
 
-![小到一手掌握!( JJC副廠遮光罩)](https://cdn-images-1.medium.com/max/9792/1*WbgrwDfKGlPvvoQZVDBUkQ.jpeg)*小到一手掌握!( JJC副廠遮光罩)*
+![小到一手掌握!( JJC副廠遮光罩)](./1_WbgrwDfKGlPvvoQZVDBUkQ.jpeg)
+##### 小到一手掌握!( JJC副廠遮光罩)
 
-![賞心悅目的金屬機身質感！](https://cdn-images-1.medium.com/max/9792/1*BIZlgm-WfxxhxYs3tr65EQ.jpeg)*賞心悅目的金屬機身質感！*
+![賞心悅目的金屬機身質感！](./1_BIZlgm-WfxxhxYs3tr65EQ.jpeg)
+##### 賞心悅目的金屬機身質感！
 
-## 觀星APP 推薦
+### 觀星APP 推薦
 
 我所使用的輔助觀星工具給大家參考
 
@@ -81,20 +92,20 @@
 
 1. Star walk 2
 
-![](https://cdn-images-1.medium.com/max/2484/1*cUH6FREkgr4gLn039ffQ9w.png)
+![](./1_cUH6FREkgr4gLn039ffQ9w.png)
 
 Sky Live — 
 即便是剛出發前 看到APP 表示好像是多雲的關係不利觀星, 『糟糕觀星條件7%…』我想說好吧反正就當作探路就出發了, 順便測測app 的準確度…有沒有準？
 
-![](https://cdn-images-1.medium.com/max/2304/1*Qt_-RTMC6bdWkhzpJ9VNfA.jpeg)
+![](./1_Qt_-RTMC6bdWkhzpJ9VNfA.jpeg)
 
 太陽觀測師 — 
 一雨大大推薦的好物 可以知道日出日落方位 月升月落 還有銀河升起的時間
 ( 購買完整版才有完整功能)
 
-![](https://cdn-images-1.medium.com/max/2484/1*_OHNj3DoCXMTeJe-Dz3jeg.png)
+![](./1__OHNj3DoCXMTeJe-Dz3jeg.png)
 
 Star walk 2 — 
 可以看到星空狀態 尋找銀河帶在哪裡！大推必裝
 
-![](https://cdn-images-1.medium.com/max/4416/1*rO6wv3W5KQQ_SzIJXEWLiw.png)
+![](./1_rO6wv3W5KQQ_SzIJXEWLiw.png)
