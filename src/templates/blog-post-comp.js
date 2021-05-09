@@ -41,6 +41,10 @@ export const Article = styled.div`
     text-align: center;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   .post-content-date {
     font-size: 14px;
     line-height: 22px;
