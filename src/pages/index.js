@@ -2,14 +2,16 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
+import IndexContainer from "../containers/Index"
 import SEO from "../components/SEO"
 
 class IndexPage extends React.Component {
   render() {
+    const { data, location } = this.props
     const siteTitle = "CHASING LIGHTS AND SHADOWS"
-    console.log(this.props.data)
+    console.log(data)
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={location} title={siteTitle}>
         <SEO
           title="Home"
           keywords={[
@@ -23,6 +25,7 @@ class IndexPage extends React.Component {
             `js`,
           ]}
         />
+        <IndexContainer/>
       </Layout>
     )
   }
