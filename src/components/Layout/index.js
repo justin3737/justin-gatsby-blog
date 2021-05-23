@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "./header"
+import Header from "../Header"
 import { GlobalStyle, Wrapper, Footer } from "./layout-comp"
 
 class Layout extends React.Component {

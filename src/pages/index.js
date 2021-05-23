@@ -1,26 +1,51 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Button from "../components/button"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
 
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "CHASING LIGHTS AND SHADOWS"
-
+    console.log(this.props.data)
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`mountain`, `life`, `photography`, `blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[
+            `mountain`,
+            `life`,
+            `photography`,
+            `blog`,
+            `gatsby`,
+            `javascript`,
+            `react`,
+            `js`,
+          ]}
         />
-        <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
-        </Link>
       </Layout>
     )
   }
 }
+
+export const query = graphql`
+  query {
+    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        previous {
+          frontmatter {
+            date
+            description
+            tags
+            title
+            cover {
+              absolutePath
+            }
+          }
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
