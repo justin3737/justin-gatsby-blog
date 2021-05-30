@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import {
   PostCardWrap,
   PostCard,
@@ -15,42 +16,32 @@ import {
 } from "./post-comp"
 
 class PostCardItem extends React.Component {
+  static PropType = {
+    data: PropTypes.object,
+  }
   render() {
+    const { data } = this.props
+    const { cover, date, description, tags, title } = data.frontmatter
+    const coverSrc = cover.childImageSharp.sizes.src
+    const link = `/blog${data.fields.slug}`
     return (
       <>
         <PostCardWrap className="col-2">
           <PostCard>
             <PostCardMedia>
-              <PostCardMediaLink href="">
-                <PostCardImage
-                  src="https://images.unsplash.com/photo-1586188892796-d1289a658bb2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-                  alt=""
-                />
+              <PostCardMediaLink href={link}>
+                <PostCardImage src={coverSrc} alt={title} />
               </PostCardMediaLink>
             </PostCardMedia>
             <PostCardContent>
               <PostCardMeta>
-                <PostCardDate
-                  datetime="2020-04-06"
-                  title="06 April 2020"
-                >
-                  06.Apr.2020
-                </PostCardDate>
-                <PostCardTag href="">攝影</PostCardTag>
-                <PostCardTag href="">旅遊</PostCardTag>
+                <PostCardDate>{date}</PostCardDate>
+                <PostCardTag href="">{tags}</PostCardTag>
               </PostCardMeta>
               <PostCardTitle>
-                <PostCardTitleLink href="https://brian-ross.net/jk-untitled/">
-                  Give Science Time
-                </PostCardTitleLink>
+                <PostCardTitleLink href={link}>{title}</PostCardTitleLink>
               </PostCardTitle>
-              <PostCardExcerpt href="https://brian-ross.net/jk-untitled/">
-                Use Common Sense Whate We Pretend to Know about the Coronavirus
-                Could Kill Us is an excellent article on the pace of science,
-                the pitfalls of social media, and the failings of government and
-                media during this crisis. &nbsp; The bottome line - be careful.
-                &nbsp;Use common sense. &nbsp; My bottom line:
-              </PostCardExcerpt>
+              <PostCardExcerpt href={link}>{description}</PostCardExcerpt>
             </PostCardContent>
           </PostCard>
         </PostCardWrap>

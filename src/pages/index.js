@@ -41,8 +41,15 @@ export const query = graphql`
             tags
             title
             cover {
-              absolutePath
+              childImageSharp {
+                sizes {
+                  src
+                }
+              }
             }
+          }
+          fields {
+            slug
           }
         }
       }
