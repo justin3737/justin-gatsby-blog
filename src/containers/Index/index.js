@@ -1,23 +1,23 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { PostContainer } from './index-comp'
-import PostCard from 'src/components/PostCard'
+import React, { Component } from "react"
+import PropTypes from "prop-types"
+import { PostContainer } from "./index-comp"
+import PostCard from "src/components/PostCard"
 
 class Index extends Component {
   static propTypes = {
-    dataArray: PropTypes.array
+    dataArray: PropTypes.array,
   }
   static defaultProps = {
-    dataArray: []
+    dataArray: [],
   }
   render() {
     const { dataArray } = this.props
-    console.log(dataArray)
-    return(
+    return (
       <PostContainer>
-        <PostCard/>
-        <PostCard/>
-        <PostCard/>
+        {dataArray.map((item, id) => {
+          if (item && item.previous)
+            return <PostCard key={id} data={item.previous} />
+        })}
       </PostContainer>
     )
   }
