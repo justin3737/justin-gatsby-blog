@@ -9,7 +9,6 @@ class IndexPage extends React.Component {
   render() {
     const { data, location } = this.props
     const siteTitle = "CHASING LIGHTS AND SHADOWS"
-    console.log(data)
     return (
       <Layout location={location} title={siteTitle}>
         <SEO
@@ -25,7 +24,7 @@ class IndexPage extends React.Component {
             `js`,
           ]}
         />
-        <IndexContainer/>
+        <IndexContainer dataArray={data.allMdx.edges}/>
       </Layout>
     )
   }
