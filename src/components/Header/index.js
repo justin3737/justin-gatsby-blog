@@ -31,27 +31,22 @@ class Header extends React.Component {
         </Logo>
         <ListMenu>
           <ListItem>
-            <a className="list-link" href="">
+            <a className="list-link" href="/">
               Mountain
             </a>
           </ListItem>
           <ListItem>
-            <a className="list-link" href="">
-              Life
-            </a>
-          </ListItem>
-          <ListItem>
-            <a className="list-link" href="">
+            <a className="list-link" href="/">
               Coding
             </a>
           </ListItem>
           <ListItem>
-            <a className="list-link" href="">
+            <a className="list-link" href="/">
               Archive
             </a>
           </ListItem>
           <ListItem>
-            <a className="list-link" href="">
+            <a className="list-link" href="/">
               About
             </a>
           </ListItem>
