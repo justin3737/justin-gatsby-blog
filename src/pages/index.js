@@ -32,14 +32,13 @@ class IndexPage extends React.Component {
 
 export const query = graphql`
   query {
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(sort: {order: DESC, fields: [frontmatter___date]}) {
       edges {
-        previous {
+        node {
+          fields {
+            slug
+          }
           frontmatter {
-            date
-            description
-            tags
-            title
             cover {
               childImageSharp {
                 sizes {
@@ -47,9 +46,10 @@ export const query = graphql`
                 }
               }
             }
-          }
-          fields {
-            slug
+            date
+            description
+            tags
+            title
           }
         }
       }

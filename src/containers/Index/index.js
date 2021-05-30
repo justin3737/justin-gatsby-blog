@@ -15,8 +15,8 @@ class Index extends Component {
     return (
       <PostContainer>
         {dataArray.map((item, id) => {
-          if (item && item.previous)
-            return <PostCard key={id} data={item.previous} />
+          if (item && item.node)
+            return <PostCard key={id} data={item.node} />
         })}
       </PostContainer>
     )
