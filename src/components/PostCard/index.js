@@ -8,6 +8,7 @@ import {
   PostCardContent,
   PostCardMeta,
   PostCardDate,
+  PostCardTag,
   PostCardTitle,
   PostCardTitleLink,
   PostCardExcerpt,
@@ -35,6 +36,8 @@ class PostCardItem extends React.Component {
                 >
                   06.Apr.2020
                 </PostCardDate>
+                <PostCardTag href="">攝影</PostCardTag>
+                <PostCardTag href="">旅遊</PostCardTag>
               </PostCardMeta>
               <PostCardTitle>
                 <PostCardTitleLink href="https://brian-ross.net/jk-untitled/">

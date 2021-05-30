@@ -88,11 +88,25 @@ export const PostCardMeta = styled.div`
 `
 
 export const PostCardDate = styled.time`
-  padding-left: 8px;
-  margin-left: 8px;
+  padding-right: 8px;
+  margin-right: 8px;
   line-height: 1;
-  -webkit-box-shadow: inset 1px 0 0 0 #4f525f;
-  box-shadow: inset 1px 0 0 0 #4f525f;
+  box-shadow: inset -1px 0 0 0 #4f525f;
+`
+
+export const PostCardTag = styled.a`
+  text-decoration: underline;
+  margin-right: 14px;
+  position: relative;
+
+  &::after {
+    content: '、';
+    position: absolute;
+  }
+
+  &:last-child::after {
+    content: '';
+  }
 `
 
 export const PostCardTitle = styled.h2`
