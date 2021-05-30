@@ -100,3 +100,13 @@ tags: "mountain"
 在爬山以前 我非常的愛拍照…嘗試了很多題材。
 風景、人像、影像創作、婚禮紀錄…都有嘗試過
 喜歡上山，也喜歡幫朋友拍照。<br/>
+
+
+<br/>
+<hr/>
+<br/>
+
+### 我的百岳相關文章：
+- <a href="/blog/mountainholic-1/">Mountainholic Part I - 登山初心</a><br/>
+- <a href="/blog/mountainholic-2/">Mountainholic Part II - 我的百岳紀錄</a><br/>
+- <a href="/blog/mountainholic-3/">Mountainholic Part III - 在山上游牧</a><br/>

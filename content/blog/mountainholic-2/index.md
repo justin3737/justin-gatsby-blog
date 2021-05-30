@@ -106,3 +106,13 @@ tags: "mountain"
 ，然後爬到週日下山回到，家週一繼續上班。
 我們根本超虐的，睡過鐵皮搭建的民宿以外
 ，我們也睡過部落國小教室外的走廊<b>超虐</b></p>
+
+
+<br/>
+<hr/>
+<br/>
+
+### 我的百岳相關文章：
+- <a href="/blog/mountainholic-1/">Mountainholic Part I - 登山初心</a><br/>
+- <a href="/blog/mountainholic-2/">Mountainholic Part II - 我的百岳紀錄</a><br/>
+- <a href="/blog/mountainholic-3/">Mountainholic Part III - 在山上游牧</a><br/>
