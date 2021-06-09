@@ -13,39 +13,44 @@ class Header extends React.Component {
   constructor() {
     super()
     this.state = {
-      isOpen: false
+      isOpen: false,
     }
   }
   _onclick = () => {
     const { isOpen } = this.state
     this.setState({
-      isOpen: !isOpen
+      isOpen: !isOpen,
     })
   }
   render() {
     const { title } = this.props
     return (
-      <Head className={this.state.isOpen? "is-open":""}>
+      <Head className={this.state.isOpen ? "is-open" : ""}>
         <Logo>
+          {/* 首頁列出相關文章: 登山, 攝影, 生活. */}
           <Link to="/">{title}</Link>
         </Logo>
         <ListMenu>
           <ListItem>
-            <a className="list-link" href="/">
-              Mountain
-            </a>
-          </ListItem>
-          <ListItem>
+            {/* 列出相關文章: 前端, 後端, */}
             <a className="list-link" href="/">
               Coding
             </a>
           </ListItem>
           <ListItem>
+            {/* 分類 (按照分類排序) */}
             <a className="list-link" href="/">
-              Archive
+              Catagoris
             </a>
           </ListItem>
           <ListItem>
+            {/* 所有文章列表 (按照時間排序) */}
+            <a className="list-link" href="/">
+              Archives
+            </a>
+          </ListItem>
+          <ListItem>
+            {/* 關於我 */}
             <a className="list-link" href="/about">
               About
             </a>
