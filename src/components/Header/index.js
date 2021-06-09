@@ -46,7 +46,7 @@ class Header extends React.Component {
             </a>
           </ListItem>
           <ListItem>
-            <a className="list-link" href="/">
+            <a className="list-link" href="/about">
               About
             </a>
           </ListItem>
