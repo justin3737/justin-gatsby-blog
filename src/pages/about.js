@@ -11,7 +11,7 @@ class AboutPage extends React.Component {
     return (
       <>
         <GlobalStyle/>
-        <Header title={siteTitle} location={location}/>
+        <Header title={siteTitle} location={location} fontColor="#fff"/>
         <SEO
           title="Home"
           keywords={[

@@ -1,47 +1,52 @@
 import styled from "styled-components"
 
 export const Head = styled.header`
-	display: block;
-	position: fixed;
-	top: 0;
-	z-index: 100;
-	padding: 24px 2rem;
-	width: calc(100% - 40px);
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  padding: 24px 2rem;
+  width: calc(100% - 40px);
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
 
-	@media screen and (max-width: 820px) {
-		width: 100%;
+  & a {
+    color: ${props => props.fontColor};
+  }
 
-		&.is-open {
-			overflow: hidden;
-			height: 100vh;
-			-webkit-transition: height .3s ease-in;
-			transition: height .3s ease-in;
-			background: #fff;
-		}
+  @media screen and (max-width: 820px) {
+    width: 100%;
 
-		&.is-open > ul {
-			display: block;
-			position: absolute;
-			top: 70px;
-			width: calc(100% - 40px);
-			right: 20px;
-			-webkit-transition: all .3s ease-in;
-			transition: all .3s ease-in;
-		}
-	}
+    &.is-open {
+      overflow: hidden;
+      height: 100vh;
+      -webkit-transition: height 0.3s ease-in;
+      transition: height 0.3s ease-in;
+      background: ${props =>
+        props.fontColor === "#fff" ? "transparent" : "#fff"};
+    }
+
+    &.is-open > ul {
+      display: block;
+      position: absolute;
+      top: 70px;
+      width: calc(100% - 40px);
+      right: 20px;
+      -webkit-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in;
+    }
+  }
 `
 
 export const HamburgerWrap = styled.div`
   display: none;
 
-	@media screen and (max-width: 820px) {
-		display: block;
+  @media screen and (max-width: 820px) {
+    display: block;
     height: 16px;
     width: 24px;
     cursor: pointer;
@@ -49,24 +54,25 @@ export const HamburgerWrap = styled.div`
     position: absolute;
     top: 32px;
     right: 2rem;
-	}
+  }
 `
 
 const Hamberger = styled.span`
-	height: 1px;
-	width: 24px;
-	background: #000c2d;
-	cursor: pointer;
-	width: 100%;
-	display: block;
+  height: 1px;
+  width: 24px;
+  background: ${props => props.fontColor};
+  cursor: pointer;
+  width: 100%;
+  display: block;
 `
 
 export const HamburgerItem = styled(Hamberger)`
-  &::before, &::after {
-    content: '';
+  &::before,
+  &::after {
+    content: "";
     height: 1px;
     width: 24px;
-    background: #000c2d;
+    background: ${props => props.fontColor};
     cursor: pointer;
     width: 100%;
     display: block;
@@ -86,55 +92,55 @@ export const Logo = styled.div`
   font-size: 18px;
   line-height: 36px;
 
-	a {
-		text-transform: uppercase;
-	}
+  a {
+    text-transform: uppercase;
+  }
 
-	@media screen and (max-width: 820px) {
-		padding: 0;
+  @media screen and (max-width: 820px) {
+    padding: 0;
     width: 100%;
-	}
+  }
 
-	@media screen and (max-width: 414px) {
-		font-size: 16px;
-	}
+  @media screen and (max-width: 414px) {
+    font-size: 16px;
+  }
 `
 
 export const ListMenu = styled.ul`
-	flex-shrink: 0;
-	z-index: 100;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+  flex-shrink: 0;
+  z-index: 100;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 
-	@media screen and (max-width: 820px) {
-		display: none;
-	}
+  @media screen and (max-width: 820px) {
+    display: none;
+  }
 `
 export const ListItem = styled.li`
-list-style: none;
+  list-style: none;
 
-.list-link {
-	display: block;
-  margin: 0 15px;
-  color: #666;
-  letter-spacing: 1px;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  line-height: 36px;
-  opacity: .4;
-  text-decoration: none;
+  .list-link {
+    display: block;
+    margin: 0 15px;
+    color: ${props => props.fontColor};
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    line-height: 36px;
+    opacity: 0.6;
+    text-decoration: none;
 
-	&:hover {
-		opacity: 1;
-	}
+    &:hover {
+      opacity: 1;
+    }
 
-	@media screen and (max-width: 820px) {
-		text-align: right;
-    line-height: 40px;
-	}
-}
+    @media screen and (max-width: 820px) {
+      text-align: right;
+      line-height: 40px;
+    }
+  }
 `
