@@ -13,7 +13,6 @@ export const Head = styled.header`
 	justify-content: space-between;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	background: #fff;
 
 	@media screen and (max-width: 820px) {
 		width: 100%;
@@ -23,6 +22,7 @@ export const Head = styled.header`
 			height: 100vh;
 			-webkit-transition: height .3s ease-in;
 			transition: height .3s ease-in;
+			background: #fff;
 		}
 
 		&.is-open > ul {
@@ -131,7 +131,7 @@ list-style: none;
 	&:hover {
 		opacity: 1;
 	}
-	
+
 	@media screen and (max-width: 820px) {
 		text-align: right;
     line-height: 40px;

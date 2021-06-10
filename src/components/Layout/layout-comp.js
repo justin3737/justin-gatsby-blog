@@ -8,6 +8,10 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  height: 100%;
+}
+
 body {
   background: #fff;
   color: #000c2d;
@@ -15,17 +19,17 @@ body {
   line-height: 1.5;
   direction: ltr;
  }
- 
-  body, input, button {
-    font-size: 16px;
-    font-family: "Noto Sans", Helvetica,Arial,sans-serif;
-  }
 
- a {
+body, input, button {
+  font-size: 16px;
+  font-family: "Noto Sans", Helvetica,Arial,sans-serif;
+}
+
+a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-  }
+}
 `
 
 export const Wrapper = styled.div`

@@ -1,14 +1,17 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Header from "../components/Header"
 import SEO from "../components/SEO"
 import About from "../containers/About"
+import { GlobalStyle } from "../components/Layout/layout-comp"
 
 class AboutPage extends React.Component {
   render() {
     const { location } = this.props
     const siteTitle = "CHASING LIGHTS AND SHADOWS"
     return (
-      <Layout location={location} title={siteTitle}>
+      <>
+        <GlobalStyle/>
+        <Header title={siteTitle} location={location}/>
         <SEO
           title="Home"
           keywords={[
@@ -23,7 +26,7 @@ class AboutPage extends React.Component {
           ]}
         />
         <About/>
-      </Layout>
+      </>
     )
   }
 }
