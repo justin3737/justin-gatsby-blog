@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
+import About from "../containers/About"
 
 class AboutPage extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class AboutPage extends React.Component {
             `js`,
           ]}
         />
+        <About/>
       </Layout>
     )
   }
