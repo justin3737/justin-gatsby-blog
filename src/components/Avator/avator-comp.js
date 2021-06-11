@@ -3,6 +3,15 @@ import styled from "styled-components"
 export const AvatorWrap = styled.div`
   height: 208px;
   margin: 60px auto 10px;
+  @media (min-height: 813px) and (max-height: 900px) {
+    margin: 80px auto 10px;
+  }
+  @media (min-height: 901px) and (max-height: 1024px) {
+    margin: 130px auto 10px;
+  }
+  @media (min-height: 1024px) {
+    margin: 170px auto 10px;
+  }
 `
 
 export const AvatorBg = styled.div`
