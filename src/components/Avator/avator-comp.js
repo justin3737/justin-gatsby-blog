@@ -1,9 +1,8 @@
 import styled from "styled-components"
 
 export const AvatorWrap = styled.div`
-  width: 208px;
   height: 208px;
-  margin: 12.5% auto 0;
+  margin: 60px auto 10px;
 `
 
 export const AvatorBg = styled.div`

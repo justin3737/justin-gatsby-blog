@@ -3,16 +3,20 @@ import styled from "styled-components"
 export const Head = styled.header`
   display: block;
   position: fixed;
-  top: 0;
   z-index: 100;
   padding: 24px 2rem;
+  top: 0;
   width: calc(100% - 40px);
+  left: 50%;
+  margin-left: calc(-50% + 20px);
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
+  background: ${props =>
+        props.fontColor === "#fff" ? "transparent" : "#fff"};
 
   & a {
     color: ${props => props.fontColor};
@@ -20,14 +24,14 @@ export const Head = styled.header`
 
   @media screen and (max-width: 820px) {
     width: 100%;
+    left: 0;
+    margin-left: unset;
 
     &.is-open {
       overflow: hidden;
       height: 100vh;
       -webkit-transition: height 0.3s ease-in;
       transition: height 0.3s ease-in;
-      background: ${props =>
-        props.fontColor === "#fff" ? "transparent" : "#fff"};
     }
 
     &.is-open > ul {
