@@ -34,30 +34,15 @@ class Header extends React.Component {
     return (
       <Head className={this.state.isOpen ? "is-open" : ""} fontColor={fontColor}>
         <Logo>
-          {/* 首頁列出相關文章: 登山, 攝影, 生活. */}
           <Link to="/">{title}</Link>
         </Logo>
         <ListMenu>
           <ListItem>
-            {/* 列出相關文章: 前端, 後端, */}
             <a className="list-link" href="/">
-              Coding
+              Home
             </a>
           </ListItem>
           <ListItem>
-            {/* 分類 (按照分類排序) */}
-            <a className="list-link" href="/">
-              Catagoris
-            </a>
-          </ListItem>
-          <ListItem>
-            {/* 所有文章列表 (按照時間排序) */}
-            <a className="list-link" href="/">
-              Archives
-            </a>
-          </ListItem>
-          <ListItem>
-            {/* 關於我 */}
             <a className="list-link" href="/about">
               About
             </a>
