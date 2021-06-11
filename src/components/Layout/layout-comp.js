@@ -43,5 +43,5 @@ export const Wrapper = styled.div`
 
 export const Footer = styled.footer`
   text-align: center;
-  margin: 24px;
+  padding-bottom: 24px;
 `
