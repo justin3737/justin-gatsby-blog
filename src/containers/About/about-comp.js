@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const AboutWrap = styled.div`
   padding-top: 40px;
   min-height: 100%;
-  background: linear-gradient(0deg, rgba(44, 73, 107, 0.2), rgba(44, 73, 107, 0.2)), url("/public/about_bg.jpg") center center no-repeat;
+  background: linear-gradient(0deg, rgba(44, 73, 107, 0.2), rgba(44, 73, 107, 0.2)), url("/static/public/about_bg.jpg") center center no-repeat;
   background-size: cover;
   background-blend-mode: multiply, normal;
   mix-blend-mode: multiply;

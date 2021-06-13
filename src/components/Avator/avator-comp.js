@@ -31,6 +31,6 @@ export const AvatorImg = styled.div`
   height: 200px;
   left: calc(50% - 200px / 2);
   border-radius: 100%;
-  background: url("/public/justin_photo.jpeg");
+  background: url("/static/public/justin_photo.jpeg");
   background-size: cover;
 `
