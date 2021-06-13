@@ -4,7 +4,7 @@ module.exports = {
     title: `Chasing lights and shadows`,
     author: `Justin Wu`,
     description: `Justin's personal blog.`,
-    siteUrl: `https://justin.com`,
+    siteUrl: `https://justin3737.github.io`,
     social: {
       facebook: `justin3737`,
       instagram: `justin3737`,

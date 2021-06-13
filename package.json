@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "justin-blog",
   "private": true,
   "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
-  "version": "2.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "version": "1.0.0",
+  "author": "Justin Wu <juns3700@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
@@ -47,9 +44,10 @@
   "devDependencies": {
     "gatsby-cli": "^2.19.2",
     "gatsby-plugin-root-import": "^2.0.5",
+    "gh-pages": "^3.2.0",
     "prettier": "^1.17.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://justin3737.github.io",
   "keywords": [
     "gatsby"
   ],
@@ -57,7 +55,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/justin3737/justin3737.github.io.git"
   },
   "scripts": {
     "build": "gatsby build",
@@ -65,6 +63,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy:github": "yarn build && node ./deploy-github",
+    "clean": "rm -rf node_modules/gh-pages/.cache"
   }
 }
