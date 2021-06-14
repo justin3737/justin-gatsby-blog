@@ -23,9 +23,9 @@ export default CataList
 {
   "slug": "mountainholic-3/",
   "frontmatter": {
-    "tags": "mountain",
     "title": "Mountainholic Part III - 在山上游牧",
-    "date": "2021-03-12"
+    "date": "2021-03-12",
+    "catagories": "mountain"
   }
 }
 */
