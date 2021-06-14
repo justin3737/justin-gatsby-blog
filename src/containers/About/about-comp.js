@@ -39,6 +39,7 @@ export const AuthorName = styled.h1`
 export const AuthorDesc = styled.div`
   position: relative;
   margin: 0 48px;
+  text-align: center;
   text-align-last: justify;
   color: white;
   font-weight: 500;
