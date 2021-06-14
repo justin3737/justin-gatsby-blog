@@ -3,7 +3,8 @@ title: X70 與 XT1 - 初見面 南方澳漁港日出不專業測試
 cover: ./1_WbgrwDfKGlPvvoQZVDBUkQ.jpeg
 date: "2016-08-06"
 description: "『男人的防潮箱永遠都少一顆鏡頭 』除了鏡頭… 還少了隨身機 ^.<"
-tags: "photography"
+catagories: "photography"
+tags: ["photography","x70","xt1","fuji"]
 ---
 
 ### 前言

@@ -3,7 +3,8 @@ title: x70 星芒測試
 cover: ./1_3rrej4ueiF6mGJbPlFAbng.jpeg
 date: "2016-08-08"
 description: "F11 ~ F16 左右感覺會是比較漂亮海膽刺星芒, 我個人最喜歡F16 的星芒"
-tags: "photography"
+catagories: "photography"
+tags: ["photography","x70","fuji"]
 ---
 ### 前言
 

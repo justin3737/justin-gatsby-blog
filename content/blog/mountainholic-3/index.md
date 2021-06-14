@@ -3,7 +3,8 @@ title: Mountainholic Part III - 在山上游牧
 cover: 1_IfoIfVKHvVInDzNXzA9JHg.jpeg
 date: "2021-03-12"
 description: "能高安東軍這一段有無數個高山湖泊，我們在湖邊糜爛煮食看日落…"
-tags: "mountain"
+catagories: "mountain"
+tags: ["mountain"]
 ---
 
 ![新達山屋迎接日出](./1_IfoIfVKHvVInDzNXzA9JHg.jpeg)

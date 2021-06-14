@@ -21,7 +21,7 @@ class PostCardItem extends React.Component {
   }
   render() {
     const { data } = this.props
-    const { cover, date, description, tags, title } = data.frontmatter
+    const { cover, date, description, catagories, title } = data.frontmatter
     const coverSrc = cover.childImageSharp.sizes.src
     const link = `/blog${data.fields.slug}`
     return (
@@ -36,7 +36,7 @@ class PostCardItem extends React.Component {
             <PostCardContent>
               <PostCardMeta>
                 <PostCardDate>{date}</PostCardDate>
-                <PostCardTag href="">{tags}</PostCardTag>
+                <PostCardTag href="">{catagories}</PostCardTag>
               </PostCardMeta>
               <PostCardTitle>
                 <PostCardTitleLink href={link}>{title}</PostCardTitleLink>
