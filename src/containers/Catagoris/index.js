@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
+import { CataWrap } from "./cata-comp"
 import CataList from "../../components/CataList"
 
 class CataContainer extends Component {
@@ -12,11 +13,9 @@ class CataContainer extends Component {
   render() {
     const { dataArray } = this.props
     return (
-      <>
-        {dataArray.map((item, id) => {
-          return <CataList key={id} data={item.node} />
-        })}
-      </>
+      <CataWrap>
+        <CataList dataArray={dataArray} />
+      </CataWrap>
     )
   }
 }

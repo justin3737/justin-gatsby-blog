@@ -1,19 +1,27 @@
 import React from "react"
 import PropTypes from "prop-types"
-
+import { titleCase } from "../../utils/helper"
+import { ListTitle } from "./catalist-comp"
 class CataList extends React.Component {
   static propTypes = {
-    data: PropTypes.object,
+    dataArray: PropTypes.array,
   }
   static defaultProps = {
-    data: {},
+    dataArray: [],
   }
   render() {
-    const { data } = this.props
-    console.log(data)
-    return <>{
-      data.frontmatter.tags
-    }</>
+    const { dataArray } = this.props
+    const oriCataArr = dataArray.map(itam => {
+      return itam.node.frontmatter.catagories
+    })
+    const noRepectCataArr = Array.from(new Set(oriCataArr))
+    return (
+      <>
+        {noRepectCataArr.map(title => {
+          return (<ListTitle>{titleCase(title)}</ListTitle>)
+        })}
+      </>
+    )
   }
 }
 
