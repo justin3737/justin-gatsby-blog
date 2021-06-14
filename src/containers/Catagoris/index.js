@@ -1,9 +1,8 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
-import { PostContainer } from "./index-comp"
-import PostCard from "src/components/PostCard"
+import CataList from "../../components/CataList"
 
-class Index extends Component {
+class CataContainer extends Component {
   static propTypes = {
     dataArray: PropTypes.array,
   }
@@ -13,13 +12,13 @@ class Index extends Component {
   render() {
     const { dataArray } = this.props
     return (
-      <PostContainer>
+      <>
         {dataArray.map((item, id) => {
-          return <PostCard key={id} data={item.node} />
+          return <CataList key={id} data={item.node} />
         })}
-      </PostContainer>
+      </>
     )
   }
 }
 
-export default Index
+export default CataContainer
