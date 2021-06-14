@@ -1,7 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
+import CataItem from "./CataItem"
 import { titleCase } from "../../utils/helper"
-import { ListTitle } from "./catalist-comp"
+import { CataTitle, CataItemWrap } from "./catalist-comp"
 class CataList extends React.Component {
   static propTypes = {
     dataArray: PropTypes.array,
@@ -17,8 +18,18 @@ class CataList extends React.Component {
     const noRepectCataArr = Array.from(new Set(oriCataArr))
     return (
       <>
-        {noRepectCataArr.map(title => {
-          return (<ListTitle>{titleCase(title)}</ListTitle>)
+        {noRepectCataArr.map((title, index) => {
+          return (
+            <>
+              <CataTitle key={index}>{titleCase(title)}</CataTitle>
+              <CataItemWrap>
+                {dataArray.map((item, id) => {
+                  if (title === item.node.frontmatter.catagories)
+                    return <CataItem key={id} data={item.node} />
+                })}
+              </CataItemWrap>
+            </>
+          )
         })}
       </>
     )
@@ -26,14 +37,3 @@ class CataList extends React.Component {
 }
 
 export default CataList
-
-/*
-{
-  "slug": "mountainholic-3/",
-  "frontmatter": {
-    "title": "Mountainholic Part III - 在山上游牧",
-    "date": "2021-03-12",
-    "catagories": "mountain"
-  }
-}
-*/
