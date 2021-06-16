@@ -4,24 +4,30 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Article } from "./blog-post-comp"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
+import { Disqus, CommentCount } from "gatsby-plugin-disqus"
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.mdx
-    const siteTitle = this.props.data.site.siteMetadata.title
-
+    const { location, data } = this.props
+    const post = data.mdx
+    const siteTitle = data.site.siteMetadata.title
+    const disqusConfig = {
+      url: `${location}`,
+      identifier: post.id,
+      title: post.frontmatter.title,
+    }
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
         <Article>
-        <h1>{post.frontmatter.title}</h1>
-        <p className="post-content-date">
-          {post.frontmatter.date}
-        </p>
-        <MDXRenderer>{post.body}</MDXRenderer>
+          <h1>{post.frontmatter.title}</h1>
+          <p className="post-content-date">{post.frontmatter.date}</p>
+          <MDXRenderer>{post.body}</MDXRenderer>
+          <CommentCount config={disqusConfig} placeholder={"..."} />
+          <Disqus config={disqusConfig} />{" "}
         </Article>
       </Layout>
     )

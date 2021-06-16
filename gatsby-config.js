@@ -127,6 +127,12 @@ module.exports = {
         // edit below
         icon: `content/assets/gatsby-icon.png`,
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `justin-image-blog`,
+      },
+    },
   ],
 }
