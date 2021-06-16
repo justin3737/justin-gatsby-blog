@@ -10,9 +10,9 @@ class BlogPostTemplate extends React.Component {
   render() {
     const { location, data } = this.props
     const post = data.mdx
-    const siteTitle = data.site.siteMetadata.title
+    const { siteTitle } = data.site.siteMetadata.title
     const disqusConfig = {
-      url: `${location}`,
+      url: `${location.href}`,
       identifier: post.id,
       title: post.frontmatter.title,
     }
