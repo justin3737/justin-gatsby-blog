@@ -139,3 +139,9 @@ export const Article = styled.div`
     }
   }
 `
+
+export const DisqusWarp = styled.div`
+  margin: 10vh 0px;
+  padding: 20px;
+  background: rgb(246, 246, 246);
+`

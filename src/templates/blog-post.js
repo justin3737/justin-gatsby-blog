@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import { Article } from "./blog-post-comp"
+import { Article, DisqusWarp } from "./blog-post-comp"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import { Disqus, CommentCount } from "gatsby-plugin-disqus"
@@ -26,8 +26,10 @@ class BlogPostTemplate extends React.Component {
           <h1>{post.frontmatter.title}</h1>
           <p className="post-content-date">{post.frontmatter.date}</p>
           <MDXRenderer>{post.body}</MDXRenderer>
-          <CommentCount config={disqusConfig} placeholder={"..."} />
-          <Disqus config={disqusConfig} />{" "}
+          <DisqusWarp>
+            <CommentCount config={disqusConfig} placeholder={"..."} />
+            <Disqus config={disqusConfig} />{" "}
+          </DisqusWarp>
         </Article>
       </Layout>
     )
