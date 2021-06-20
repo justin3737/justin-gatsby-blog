@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/Layout"
-import Catagoris from "../containers/Catagoris"
-import SEO from "../components/SEO"
+import Layout from "@components/Layout"
+import Catagoris from "@containers/Catagoris"
+import SEO from "@components/SEO"
 
 class IndexPage extends React.Component {
   render() {

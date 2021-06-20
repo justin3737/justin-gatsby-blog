@@ -134,5 +134,19 @@ module.exports = {
         shortname: `justin-image-blog`,
       },
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@src": "src",
+          "@components": "src/components",
+          "@containers": "src/containers",
+          "@utils": "src/utils"
+        },
+        extensions: [
+          "js",
+        ]
+      }
+    }
   ],
 }

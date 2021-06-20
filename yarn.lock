@@ -6897,6 +6897,13 @@ gatsby-page-utils@^0.9.1:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
+gatsby-plugin-alias-imports@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-alias-imports/-/gatsby-plugin-alias-imports-1.0.5.tgz#44c0856d77acb74b58b89ec725dadd8f5d5b327d"
+  integrity sha512-q58JrSjuVNh4NApamqElR0zqwm55FOb9vFAVb2i2ftPRu0uYzWJkbOz2IN3vSw7a+5PmGzX7VL8XDFXlNHrMNA==
+  dependencies:
+    "@babel/runtime" "^7.2.0"
+
 gatsby-plugin-disqus@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.2.2.tgz#d10e72c2ac0f7205abd7dda2e8cb4ecc0743a824"

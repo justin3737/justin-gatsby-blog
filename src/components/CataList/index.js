@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import CataItem from "./CataItem"
-import { titleCase } from "../../utils/helper"
+import { titleCase } from "src/utils/helper"
 import { CataTitle, CataItemWrap } from "./catalist-comp"
 class CataList extends React.Component {
   static propTypes = {
@@ -22,7 +22,7 @@ class CataList extends React.Component {
           return (
             <>
               <CataTitle key={index}>{titleCase(title)}</CataTitle>
-              <CataItemWrap>
+              <CataItemWrap key={index}>
                 {dataArray.map((item, id) => {
                   if (title === item.node.frontmatter.catagories)
                     return <CataItem key={id} data={item.node} />

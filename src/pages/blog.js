@@ -1,22 +1,20 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/Layout"
-import SEO from "../components/SEO"
-import Button from "../components/Button"
-import SearchPosts from "../components/SearchPost"
-
+import Layout from "src/components/Layout"
+import SEO from "@components/SEO"
+import Button from "@components/Button"
+import SearchPost from "@components/SearchPost"
 class Blog extends React.Component {
   render() {
     const { data, navigate, location } = this.props
-    const siteTitle = data.site.siteMetadata.title
+    const siteTitle = "CHASING LIGHTS AND SHADOWS"
     const posts = data.allMdx.edges
     const localSearchBlog = data.localSearchBlog
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <SearchPosts
+        <SearchPost
           posts={posts}
           localSearchBlog={localSearchBlog}
           navigate={navigate}

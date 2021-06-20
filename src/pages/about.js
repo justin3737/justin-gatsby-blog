@@ -1,8 +1,8 @@
 import React from "react"
-import Header from "../components/Header"
-import SEO from "../components/SEO"
-import About from "../containers/About"
-import { GlobalStyle } from "../components/Layout/layout-comp"
+import Header from "src/components/Header"
+import SEO from "src/components/SEO"
+import About from "src/containers/About"
+import { GlobalStyle } from "src/components/Layout/layout-comp"
 
 class AboutPage extends React.Component {
   render() {

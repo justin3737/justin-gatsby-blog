@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import { CataWrap } from "./cata-comp"
-import CataList from "../../components/CataList"
+import CataList from "src/components/CataList"
 
 class CataContainer extends Component {
   static propTypes = {

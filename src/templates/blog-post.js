@@ -2,15 +2,15 @@ import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Article, DisqusWarp } from "./blog-post-comp"
-import Layout from "../components/Layout"
-import SEO from "../components/SEO"
+import Layout from "src/components/Layout"
+import SEO from "src/components/SEO"
 import { Disqus } from "gatsby-plugin-disqus"
 
 class BlogPostTemplate extends React.Component {
   render() {
     const { location, data } = this.props
     const post = data.mdx
-    const { siteTitle } = data.site.siteMetadata.title
+    const siteTitle = "CHASING LIGHTS AND SHADOWS"
     const disqusConfig = {
       url: `${location.href}`,
       identifier: post.id,

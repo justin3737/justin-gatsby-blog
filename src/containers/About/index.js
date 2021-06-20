@@ -1,7 +1,7 @@
 import React from "react"
 import { AboutWrap } from "./about-comp"
-import SocialIcon from "../../components/SocialIcon"
-import Avator from "../../components/Avator"
+import SocialIcon from "src/components/SocialIcon"
+import Avator from "src/components/Avator"
 import {
   AuthorName,
   AuthorDesc,
