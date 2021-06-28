@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "@components/Layout"
 import SEO from "@components/SEO"
+import TagList from "@components/TagList"
 import Catagoris from "@containers/Catagoris"
 
 class IndexPage extends React.Component {
@@ -11,12 +12,15 @@ class IndexPage extends React.Component {
     const siteTitle = "CHASING LIGHTS AND SHADOWS"
     const dataArray = data.allMdx.edges
     let tagArrs = []
+    let oriTagArr = []
     dataArray.forEach(item => {
       let tagArr = item.node.frontmatter.tags
       tagArr.forEach(it => {
+        oriTagArr.push(it)
         if (tags === it) tagArrs.push(item)
       })
     })
+    const noRepectTagArr = Array.from(new Set(oriTagArr))
     return (
       <Layout location={location} title={siteTitle}>
         <SEO
@@ -32,7 +36,8 @@ class IndexPage extends React.Component {
             `js`,
           ]}
         />
-         <Catagoris dataArray={tagArrs} tagName={tags}/>
+        <Catagoris dataArray={tagArrs} tagName={tags}/>
+        <TagList listArray={noRepectTagArr}/>
       </Layout>
     )
   }
