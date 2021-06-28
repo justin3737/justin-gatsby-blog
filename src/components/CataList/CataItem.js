@@ -4,23 +4,25 @@ import {
   ListItemsWrap,
   ListDate,
   ListItemTitle,
-  ListLink
+  ListLink,
 } from "./catalist-comp"
 class CataList extends React.Component {
   static propTypes = {
-    data: PropTypes.object,
+    tagName: PropTypes.string
   }
   static defaultProps = {
-    data: {},
+    data: {}
   }
-  render(){
+  render() {
     const { slug, frontmatter } = this.props.data
     const { date, title } = frontmatter
     const link = `/blog/${slug}`
-    return(
+    return (
       <ListItemsWrap>
         <ListDate>{date}</ListDate>
-        <ListItemTitle><ListLink href={link}>{title}</ListLink></ListItemTitle>
+        <ListItemTitle>
+          <ListLink href={link}>{title}</ListLink>
+        </ListItemTitle>
       </ListItemsWrap>
     )
   }

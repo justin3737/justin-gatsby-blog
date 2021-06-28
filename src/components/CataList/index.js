@@ -6,12 +6,14 @@ import { CataTitle, CataItemWrap } from "./catalist-comp"
 class CataList extends React.Component {
   static propTypes = {
     dataArray: PropTypes.array,
+    subject: PropTypes.string
   }
   static defaultProps = {
     dataArray: [],
+    subject: ''
   }
   render() {
-    const { dataArray } = this.props
+    const { dataArray, subject } = this.props
     const oriCataArr = dataArray.map(itam => {
       return itam.node.frontmatter.catagories
     })
@@ -21,7 +23,7 @@ class CataList extends React.Component {
         {noRepectCataArr.map((title, index) => {
           return (
             <>
-              <CataTitle key={index}>{titleCase(title)}</CataTitle>
+              <CataTitle key={index}>{(subject)? `#${subject}`: titleCase(title)}</CataTitle>
               <CataItemWrap key={index}>
                 {dataArray.map((item, id) => {
                   if (title === item.node.frontmatter.catagories)

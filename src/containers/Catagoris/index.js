@@ -6,15 +6,17 @@ import CataList from "src/components/CataList"
 class CataContainer extends Component {
   static propTypes = {
     dataArray: PropTypes.array,
+    tagName: PropTypes.string
   }
   static defaultProps = {
     dataArray: [],
+    tagName: ''
   }
   render() {
-    const { dataArray } = this.props
+    const { dataArray, tagName } = this.props
     return (
       <CataWrap>
-        <CataList dataArray={dataArray} />
+        <CataList dataArray={dataArray} subject={tagName}/>
       </CataWrap>
     )
   }
