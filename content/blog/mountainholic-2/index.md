@@ -3,7 +3,7 @@ title: Mountainholic Part II - 我的百岳紀錄
 cover: 1_RdtP0Nyn_Ah0bZXYy4JImg.jpeg
 date: "2021-03-11"
 description: "我所爬過的百岳目前29座，下列表格如果已重複爬的百岳沒有列入..."
-catagories: "mountain"
+categories: "mountain"
 tags: ["mountain"]
 ---
 

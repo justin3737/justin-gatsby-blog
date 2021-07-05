@@ -53,7 +53,7 @@ export const query = graphql`
             title
             date
             tags
-            catagories
+            categories
           }
         }
       }

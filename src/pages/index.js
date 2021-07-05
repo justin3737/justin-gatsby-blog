@@ -48,7 +48,8 @@ export const query = graphql`
             }
             date
             description
-            catagories
+            tags
+            categories
             title
           }
         }

@@ -56,18 +56,3 @@ export const ListLink = styled.a`
   display: inline-block;
   width: 100%;
 `
-
-export const ListTag = styled.span`
-  color: #888;
-  font-size: 0.9rem;
-  line-height: 21.6px;
-  margin-right: 0.4rem;
-
-  & a:hover {
-    text-decoration: underline;
-  }
-
-  &:after {
-    content: "、";
-  }
-`

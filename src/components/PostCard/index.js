@@ -14,6 +14,8 @@ import {
   PostCardTitleLink,
   PostCardExcerpt,
 } from "./post-comp"
+import TagText from "src/components/TagText"
+import { Link } from "gatsby"
 
 class PostCardItem extends React.Component {
   static PropType = {
@@ -21,11 +23,12 @@ class PostCardItem extends React.Component {
   }
   render() {
     const { data } = this.props
-    const { cover, date, description, catagories, title } = data.frontmatter
+    const { cover, date, description, title, tags, categories } = data.frontmatter
     const coverSrc = cover.childImageSharp.sizes.src
     const link = `/blog${data.fields.slug}`
+
     return (
-      <>
+      <React.Fragment>
         <PostCardWrap className="col-2">
           <PostCard>
             <PostCardMedia>
@@ -36,16 +39,23 @@ class PostCardItem extends React.Component {
             <PostCardContent>
               <PostCardMeta>
                 <PostCardDate>{date}</PostCardDate>
-                <PostCardTag href="">{catagories}</PostCardTag>
+                <PostCardTag href="/categories">{categories}</PostCardTag>
               </PostCardMeta>
               <PostCardTitle>
                 <PostCardTitleLink href={link}>{title}</PostCardTitleLink>
               </PostCardTitle>
               <PostCardExcerpt href={link}>{description}</PostCardExcerpt>
+              {tags.map((item, id) => {
+                  return (
+                    <TagText key={id}>
+                      <Link to={`/tags/${item}`}>#{item}</Link>
+                    </TagText>
+                  )
+                })}
             </PostCardContent>
           </PostCard>
         </PostCardWrap>
-      </>
+      </React.Fragment>
     )
   }
 }

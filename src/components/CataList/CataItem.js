@@ -6,8 +6,8 @@ import {
   ListDate,
   ListItemTitle,
   ListLink,
-  ListTag,
 } from "./catalist-comp"
+import TagText from "@components/TagText"
 class CataList extends React.Component {
   static propTypes = {
     tagName: PropTypes.string,
@@ -27,9 +27,9 @@ class CataList extends React.Component {
         </ListItemTitle>
         {tags.map((item, id) => {
           return (
-            <ListTag key={id}>
+            <TagText key={id}>
               <Link to={`/tags/${item}`}>#{item}</Link>
-            </ListTag>
+            </TagText>
           )
         })}
       </ListItemsWrap>
@@ -45,7 +45,7 @@ export default CataList
   "frontmatter": {
     "title": "Mountainholic Part III - 在山上游牧",
     "date": "2021-03-12",
-    "catagories": "mountain",
+    "categories": "mountain",
     "tags": ["photography", "x70", "xt1", "fuji"]
   }
 }

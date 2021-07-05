@@ -21,7 +21,7 @@ class Header extends React.Component {
     fontColor: PropTypes.string,
   }
   static defaultProps = {
-    fontColor: '#000c2d',
+    fontColor: "#000c2d",
   }
   _onclick = () => {
     const { isOpen } = this.state
@@ -32,7 +32,10 @@ class Header extends React.Component {
   render() {
     const { title, fontColor } = this.props
     return (
-      <Head className={this.state.isOpen ? "is-open" : ""} fontColor={fontColor}>
+      <Head
+        className={this.state.isOpen ? "is-open" : ""}
+        fontColor={fontColor}
+      >
         <Logo>
           <Link to="/">{title}</Link>
         </Logo>
@@ -44,8 +47,8 @@ class Header extends React.Component {
           </ListItem>
           <ListItem>
             {/* 分類 (按照分類排序) */}
-            <a className="list-link" href="/catagoris">
-              Catagoris
+            <a className="list-link" href="/categories">
+              Categories
             </a>
           </ListItem>
           <ListItem>

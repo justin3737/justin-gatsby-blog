@@ -37,7 +37,7 @@ export const query = graphql`
         node {
           slug
           frontmatter {
-            catagories
+            categories
             title
             date
             tags

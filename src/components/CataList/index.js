@@ -15,7 +15,7 @@ class CataList extends React.Component {
   render() {
     const { dataArray, subject } = this.props
     const oriCataArr = dataArray.map(itam => {
-      return itam.node.frontmatter.catagories
+      return itam.node.frontmatter.categories
     })
     const noRepectCataArr = Array.from(new Set(oriCataArr))
     return (
@@ -26,7 +26,7 @@ class CataList extends React.Component {
               <CataTitle>{(subject)? `#${subject}`: titleCase(title)}</CataTitle>
               <CataItemWrap>
                 {dataArray.map((item, id) => {
-                  if (title === item.node.frontmatter.catagories)
+                  if (title === item.node.frontmatter.categories)
                     return <CataItem key={id} data={item.node} />
                 })}
               </CataItemWrap>
