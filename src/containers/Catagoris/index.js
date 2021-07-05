@@ -13,7 +13,7 @@ class CataContainer extends Component {
     tagName: "",
   }
   render() {
-    const { dataArray, tagName, children } = this.props
+    const { dataArray, tagName } = this.props
     return (
       <CataWrap>
         <CataList dataArray={dataArray} subject={tagName} />

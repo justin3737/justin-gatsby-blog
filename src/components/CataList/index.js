@@ -19,21 +19,21 @@ class CataList extends React.Component {
     })
     const noRepectCataArr = Array.from(new Set(oriCataArr))
     return (
-      <>
+      <React.Fragment>
         {noRepectCataArr.map((title, index) => {
           return (
-            <>
-              <CataTitle key={index}>{(subject)? `#${subject}`: titleCase(title)}</CataTitle>
-              <CataItemWrap key={index}>
+            <React.Fragment key={index}>
+              <CataTitle>{(subject)? `#${subject}`: titleCase(title)}</CataTitle>
+              <CataItemWrap>
                 {dataArray.map((item, id) => {
                   if (title === item.node.frontmatter.catagories)
                     return <CataItem key={id} data={item.node} />
                 })}
               </CataItemWrap>
-            </>
+            </React.Fragment>
           )
         })}
-      </>
+      </React.Fragment>
     )
   }
 }
