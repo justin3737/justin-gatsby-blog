@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "@components/Layout"
-import Catagoris from "@containers/Catagoris"
+import Categoris from "@containers/Categoris"
 import SEO from "@components/SEO"
 
 class IndexPage extends React.Component {
@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
             `js`,
           ]}
         />
-        <Catagoris dataArray={data.allMdx.edges}/>
+        <Categoris dataArray={data.allMdx.edges}/>
       </Layout>
     )
   }

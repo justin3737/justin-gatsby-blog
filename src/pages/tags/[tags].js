@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "@components/Layout"
 import SEO from "@components/SEO"
 import TagList from "@components/TagList"
-import Catagoris from "@containers/Catagoris"
+import Categoris from "@containers/Categoris"
 
 class IndexPage extends React.Component {
   render() {
@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
             `js`,
           ]}
         />
-        <Catagoris dataArray={tagArrs} tagName={tags}/>
+        <Categoris dataArray={tagArrs} tagName={tags}/>
         <TagList listArray={noRepectTagArr}/>
       </Layout>
     )

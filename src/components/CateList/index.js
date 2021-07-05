@@ -1,9 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
-import CataItem from "./CataItem"
+import CateItem from "./CateItem"
 import { titleCase } from "src/utils/helper"
-import { CataTitle, CataItemWrap } from "./catalist-comp"
-class CataList extends React.Component {
+import { CateTitle, CateItemWrap } from "./catelist-comp"
+class CateList extends React.Component {
   static propTypes = {
     dataArray: PropTypes.array,
     subject: PropTypes.string
@@ -14,22 +14,22 @@ class CataList extends React.Component {
   }
   render() {
     const { dataArray, subject } = this.props
-    const oriCataArr = dataArray.map(itam => {
+    const oriCateArr = dataArray.map(itam => {
       return itam.node.frontmatter.categories
     })
-    const noRepectCataArr = Array.from(new Set(oriCataArr))
+    const noRepectCateArr = Array.from(new Set(oriCateArr))
     return (
       <React.Fragment>
-        {noRepectCataArr.map((title, index) => {
+        {noRepectCateArr.map((title, index) => {
           return (
             <React.Fragment key={index}>
-              <CataTitle>{(subject)? `#${subject}`: titleCase(title)}</CataTitle>
-              <CataItemWrap>
+              <CateTitle>{(subject)? `#${subject}`: titleCase(title)}</CateTitle>
+              <CateItemWrap>
                 {dataArray.map((item, id) => {
                   if (title === item.node.frontmatter.categories)
-                    return <CataItem key={id} data={item.node} />
+                    return <CateItem key={id} data={item.node} />
                 })}
-              </CataItemWrap>
+              </CateItemWrap>
             </React.Fragment>
           )
         })}
@@ -38,4 +38,4 @@ class CataList extends React.Component {
   }
 }
 
-export default CataList
+export default CateList

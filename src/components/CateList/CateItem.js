@@ -6,9 +6,9 @@ import {
   ListDate,
   ListItemTitle,
   ListLink,
-} from "./catalist-comp"
+} from "./catelist-comp"
 import TagText from "@components/TagText"
-class CataList extends React.Component {
+class CateList extends React.Component {
   static propTypes = {
     tagName: PropTypes.string,
   }
@@ -37,7 +37,7 @@ class CataList extends React.Component {
   }
 }
 
-export default CataList
+export default CateList
 
 /*
 {

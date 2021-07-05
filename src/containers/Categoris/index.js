@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
-import { CataWrap } from "./cata-comp"
-import CataList from "src/components/CataList"
+import { CateWrap } from "./cate-comp"
+import CateList from "src/components/CateList"
 
-class CataContainer extends Component {
+class CateContainer extends Component {
   static propTypes = {
     dataArray: PropTypes.array,
     tagName: PropTypes.string,
@@ -15,11 +15,11 @@ class CataContainer extends Component {
   render() {
     const { dataArray, tagName } = this.props
     return (
-      <CataWrap>
-        <CataList dataArray={dataArray} subject={tagName} />
-      </CataWrap>
+      <CateWrap>
+        <CateList dataArray={dataArray} subject={tagName} />
+      </CateWrap>
     )
   }
 }
 
-export default CataContainer
+export default CateContainer
