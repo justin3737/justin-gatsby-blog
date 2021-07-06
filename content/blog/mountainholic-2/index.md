@@ -4,7 +4,7 @@ cover: 1_RdtP0Nyn_Ah0bZXYy4JImg.jpeg
 date: "2021-03-11"
 description: "我所爬過的百岳目前29座，下列表格如果已重複爬的百岳沒有列入..."
 categories: "mountain"
-tags: ["mountain"]
+tags: ["mountain","fuji"]
 ---
 
 ![百岳上的日出](./1_RdtP0Nyn_Ah0bZXYy4JImg.jpeg)

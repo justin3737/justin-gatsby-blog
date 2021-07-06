@@ -4,7 +4,7 @@ cover: 0_FA343IMn6KNTm-d7.jpeg
 date: "2021-03-10"
 description: "都怪那一年同學揪我上雪山跨年，走著走著就下起雪來，一步一步踩在雪地上，呼吸著寒冷的空氣，這世界彷彿靜止了…"
 categories: "mountain"
-tags: ["mountain"]
+tags: ["mountain","fuji"]
 ---
 
 ![在桃山上跳耀](./0_FA343IMn6KNTm-d7.jpeg)

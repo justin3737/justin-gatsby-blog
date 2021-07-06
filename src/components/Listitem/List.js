@@ -1,14 +1,16 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+
 import {
   ListItemsWrap,
   ListDate,
   ListItemTitle,
   ListLink,
-} from "./catelist-comp"
+} from "./list-comp"
 import TagText from "@components/TagText"
-class CateList extends React.Component {
+
+class List extends React.Component {
   static propTypes = {
     tagName: PropTypes.string,
   }
@@ -37,7 +39,7 @@ class CateList extends React.Component {
   }
 }
 
-export default CateList
+export default List
 
 /*
 {

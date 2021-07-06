@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const CateTitle = styled.div`
+export const ListTitle = styled.div`
   color: #363636;
   font-size: 1.5rem;
   font-weight: 400;
@@ -15,7 +15,7 @@ export const CateTitle = styled.div`
   }
 `
 
-export const CateItemWrap = styled.div`
+export const ListItemWrap = styled.div`
   border-left: 1px solid #dbdbdb;
 `
 
