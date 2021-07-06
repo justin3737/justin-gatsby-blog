@@ -6,11 +6,9 @@ import ListItem from "src/components/ListItem"
 class CateContainer extends Component {
   static propTypes = {
     dataArray: PropTypes.array,
-    tagName: PropTypes.string,
   }
   static defaultProps = {
     dataArray: [],
-    tagName: "",
   }
   render() {
     const { dataArray } = this.props
@@ -20,13 +18,16 @@ class CateContainer extends Component {
     const noRepectCateArr = Array.from(new Set(oriCateArr))
     return (
       <CateCtnWrap>
-        <React.Fragment>
-          {noRepectCateArr.map((title, index) => {
-            return (
-              <ListItem key={index} dataArray={dataArray} subject={title} filterType={'categories'}/>
-            )
-          })}
-        </React.Fragment>
+        {noRepectCateArr.map((title, index) => {
+          return (
+            <ListItem
+              key={index}
+              dataArray={dataArray}
+              subject={title}
+              filterType={"categories"}
+            />
+          )
+        })}
       </CateCtnWrap>
     )
   }
