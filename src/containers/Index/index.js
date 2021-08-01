@@ -12,9 +12,10 @@ class Index extends Component {
   }
   render() {
     const { dataArray } = this.props
+    let filterCoding = dataArray.filter(d => d.node.frontmatter.categories !== "coding")
     return (
       <PostContainer>
-        {dataArray.map((item, id) => {
+        {filterCoding.map((item, id) => {
           return <PostCard key={id} data={item.node} />
         })}
       </PostContainer>

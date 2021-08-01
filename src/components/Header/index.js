@@ -46,6 +46,11 @@ class Header extends React.Component {
             </a>
           </ListItem>
           <ListItem>
+            <a className="list-link" href="/coding">
+              Coding
+            </a>
+          </ListItem>
+          <ListItem>
             {/* 分類 (按照分類排序) */}
             <a className="list-link" href="/categories">
               Categories
