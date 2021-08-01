@@ -8,6 +8,10 @@ categories: "coding"
 tags: ["react","redux","js","javascript","front-end","前端"]
 ---
 
+
+每次學習新東西都是寫Todo list實在太無趣了，這是我個人redux學習紀錄：使用react與redux開發一個留言板，並且把相關程式碼放在github上供參考
+
+
 ![](./0_0yC0iqoWA2beBzrY.png)
 
 
