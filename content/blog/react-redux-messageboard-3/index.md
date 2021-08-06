@@ -4,7 +4,7 @@ cover: ./0_VxR_oAY332hgViPe.png
 date: "2016-03-14"
 description: "每次學習新東西都是寫Todo list實在太無趣了，這是我個人redux學習紀錄：使用react與redux開發一個留言板，並且把相關程式碼放在github上供參考"
 categories: "coding"
-tags: ["react","redux","js","javascript","front-end","前端"]
+tags: ["react","redux","js","javascript","front-end","前端","Redux留言板系列","Redux留言板系列"]
 ---
 
 > 每次學習新東西都是寫Todo list實在太無趣了，這是我個人redux學習紀錄：使用react與redux開發一個留言板，並且把相關程式碼放在github上供參考
