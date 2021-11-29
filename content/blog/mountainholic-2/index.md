@@ -1,8 +1,8 @@
 ---
 title: Mountainholic Part II - 我的百岳紀錄
 cover: 1_RdtP0Nyn_Ah0bZXYy4JImg.jpeg
-date: "2021-03-11"
-description: "我所爬過的百岳目前29座，下列表格如果已重複爬的百岳沒有列入..."
+date: "2021-11-28"
+description: "我所爬過的百岳目前40座，下列表格如果已重複爬的百岳沒有列入..."
 categories: "mountain"
 tags: ["mountain","fuji"]
 ---
@@ -12,10 +12,10 @@ tags: ["mountain","fuji"]
 <br/>
 
 ### 我所爬過的百岳
-目前29座，下列表格如果已重複爬的百岳沒有列入
+目前40座，下列表格如果已重複爬的百岳沒有列入
 <br/>
 
-![百岳紀錄](./1_KR57r0JtNiZoCIJbcOtvtQ.png)
+![百岳紀錄](./1_KR57r0JtNiZoCIJbcOtvtQ40.png)
 ##### 百岳紀錄
 
 <br/>
@@ -57,7 +57,9 @@ tags: ["mountain","fuji"]
 
 
 <strong>2021</strong>
-<p>計畫中，先賣個關子</p>
+疫情解封後中央尖！<br/>
+巒安堂上西巒大山！<br/>
+十全十美南二段七日！<br/>
 
 ---
 
